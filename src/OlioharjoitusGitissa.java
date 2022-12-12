@@ -4,7 +4,7 @@ public class OlioharjoitusGitissa {
 
 		public static void main(String[] args) {
 			
-			Auto auto = new Auto();
+			Auto auto = new Auto("BMW", "x5", 10);
 			
 			auto.naytaTiedot();
 			//auto.autoJarruttaa();
@@ -77,7 +77,5 @@ public class OlioharjoitusGitissa {
 			System.out.println("Tankkaus: " + tankkaus);
 			System.out.println("Tankissa bensaa tankkauksen jälkeen: " + (tankkaus+bensanMaara));
 		}
-
-
 
 	}
